@@ -2,7 +2,7 @@
 # Simulating Multipartite Entanglement Verification Protocol using NetSquid
 
 
-The goal of this project is to simulate the Multipartite Entanglement Verification protocol in a quantum network with N participating nodes. The choice of the verifier may be random or fixed.
+The goal of this project is to simulate the Multipartite Entanglement Verification protocol in a quantum network with N participating nodes. The choice of the verifier is fixed.
 
 
 ## Approach
