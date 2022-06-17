@@ -47,8 +47,7 @@ for *|0>* state, it can be seen that all the states are possible after applying 
 
 
 
-but for GHZ state the equation always holds true
-
-![eq](https://latex.codecogs.com/png.image?%5Cinline%20%5Cdpi%7B110%7D%5Cbg%7Bwhite%7D%5Cbigoplus_%7Bj%7D%20Y_%7Bj%7D%20=%20%5Cfrac%7B1%7D%7B%5Cpi%20%7D%5C%20%5Csum_%7Bj%7D%20%5Ctheta_%7Bj%7D%20%5Chspace%7B5mm%7D%20%20%5Ctextbf%7B(mod%202)%7D)
+but for GHZ state the equation always holds true 
+$$ \bigoplus_{j} Y_{j} =\frac{1}{\pi}\ \sum_{j} \theta_{j} \hspace{5mm}  \textbf{(mod 2)} $$
 
 ![Honest State](https://github.com/adityabadhiye/mev-protocol-netsquid/blob/main/images/honest.png)
