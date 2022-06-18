@@ -22,8 +22,8 @@ the ideal state and whether or not it contains GME.
 Source shares an n-qubit state ρ with n parties.
 #### PartyProtocol
 Each party first recives its state from source through a QuantumChannel.
-- If the party is verifier, it sends random angles to other parties including itself via ClassicalPrivateChannel and verifies for Entanglement.
-- else it recives angle from verifier, measures and sends its state in corresponding basis.
+- If the party is verifier, it sends **{0, π/2}** to other parties including itself via ClassicalPrivateChannel and verifies for Entanglement.
+- else it recives angle from verifier, measures in **corresponding basis (x-basis for 0, y-basis for π/2)** and sends its **state Y={0, 1}**.
 
 ### Channels
 #### Quantum Channels
